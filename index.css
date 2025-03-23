@@ -1,0 +1,194 @@
+ a,
+ input,
+ button,
+ textarea {
+   outline: none;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ * {
+   -webkit-tap-highlight-color: transparent;
+ }
+
+
+ img,
+ a {
+   -webkit-touch-callout: none;
+ }
+
+ body {
+   background-color: #d6e6f2;
+ }
+
+ .main {
+   width: 50rem;
+   margin: 0 auto;
+   background-color: #d6e6f2;
+ }
+
+ .navbar-brand {
+   font-size: 2rem;
+   padding: 0;
+ }
+
+ .navbar {
+   padding: .2rem 10rem;
+   background-color: #769fcd !important;
+ }
+
+ .form-control {
+   margin-left: 13rem;
+   width: 28rem !important;
+   height: 2.2rem;
+ }
+
+ .list {
+   padding-top: 2rem;
+   position: relative;
+ }
+
+ .list:nth-child(3) {
+   padding-top: 0;
+ }
+
+ .count {
+   color: rgb(52, 58, 64);
+   text-align: center;
+   float: right;
+   height: 2rem;
+   width: 2rem;
+   font-size: 1.2rem;
+   line-height: 2rem;
+   border-radius: 1rem;
+   background-color: rgb(234, 242, 251);
+   position: absolute;
+   top: rem;
+   right: 1rem;
+ }
+
+ h3 {
+   margin-left: 3rem;
+   font-weight: 700;
+   color: #769fcd;
+   margin-top: -1.8rem;
+ }
+
+ .bd-callout {
+   margin-top: 1.25rem;
+   border: 1px solid #eee;
+   border-left-width: 0.35rem;
+   border-radius: .25rem;
+ }
+
+ .textNo {
+   color: #f0ad4e;
+   border-left-color: #f0ad4e;
+ }
+
+ .textDone {
+   color: #96e2cf;
+   border-left-color: #96e2cf;
+   opacity: 0.8;
+ }
+
+ .gray {
+   position: absolute !important;
+   top: -1px;
+   left: -0.35rem;
+   opacity: 0.1;
+   background-color: #000000 !important;
+   border-color: #000000 !important;
+   color: #000000;
+   z-index: 9999;
+   margin: 0 !important;
+   pointer-events: none;
+ }
+
+ .text {
+   position: relative;
+   height: 2.3rem;
+   font-size: 1.3rem;
+   line-height: 2.3rem;
+   background-color: #fff;
+   width: 50rem;
+   margin: 0 0 0.7rem 0;
+ }
+
+ .doing {
+   margin-bottom: 2rem;
+ }
+
+ ul,
+ ol {
+   padding: 0;
+   margin-top: 1rem;
+ }
+
+ svg,
+ form-check {
+   float: right;
+   margin-right: 1rem;
+ }
+
+ .form-check-input {
+   margin: 0.75rem 1.5rem;
+   transform: scale(2);
+ }
+
+ svg {
+   position: absolute;
+   top: 0.45rem;
+   right: 0;
+ }
+
+ .title {
+   margin-left: 3.5rem;
+   color: #6c6c6c;
+ }
+
+ .done {
+   color: white;
+   background-color: #7de4cb;
+
+ }
+
+ .svgdone {
+   color: #7de4cb;
+ }
+
+ .no {
+   color: white;
+   background-color: #f0ad4e;
+ }
+
+ .del {
+   position: absolute;
+   right: 5rem;
+   top: 0.001rem;
+   font-size: 1.2rem;
+   color: #6c6c6c;
+ }
+
+ a:hover {
+   color: #6c6c6c;
+   text-decoration: none;
+ }
+
+ .list svg {
+   position: relative;
+   top: -1.2rem;
+   left: -47.5rem;
+   transform: scale(2);
+ }
+
+ .dui {
+   position: relative;
+   top: 0.21rem;
+   left: 0.2rem;
+   background-color: #fff;
+   width: 1.6rem;
+   height: 1.6rem;
+ }
